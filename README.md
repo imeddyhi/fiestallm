@@ -26,11 +26,13 @@ ctrl+D (detiene el proceso del modo chat)
 '''
 
 curl http://localhost:11434/api/generate -d '{
-  "model": “tinyllama”,
-  "prompt”:”¿por que el cielo es azul?”,
+  "model": "tinyllama",
+  "prompt":"¿por que el cielo es azul?",
   "stream": false
 }'
 
 git add . (guarda cualquier cambio que se realize)
 git commit -m "UPDATED README" (guarda cambios con un nombre dentro de comillas)
 git push -u origin main (sube el codigo de nuestra maquina a github origin(maquina, main(nube)))
+
+https://www.w3schools.com/python/module_requests.asp
