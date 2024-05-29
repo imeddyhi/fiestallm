@@ -31,6 +31,7 @@ curl http://localhost:11434/api/generate -d '{
   "stream": false
 }'
 
+## 5.- Guardar las actualizaciones que se realicen
 git add . (guarda cualquier cambio que se realize)
 git commit -m "UPDATED README" (guarda cambios con un nombre dentro de comillas)
 git push -u origin main (sube el codigo de nuestra maquina a github origin(maquina, main(nube)))
